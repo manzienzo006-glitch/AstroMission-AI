@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AstroMission AI</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js"
+      }
+    }
+    </script>
+</head>
+<body>
+
+    <div id="hud">
+        <h1>ASTROMISSION AI</h1>
+        <p>MISSION: EARTH</p>
+        <p>OXYGEN: <span id="oxygen">100%</span></p>
+        <p>MISSION: Explore the planet</p>
+    </div>
+
+    <div id="instructions">
+        WASD: Move | Mouse: Look around
+    </div>
+
+    <script type="module" src="game.js"></script>
+</body>
+</html>
